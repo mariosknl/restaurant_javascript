@@ -1,14 +1,14 @@
-import elements from './elements';
+import actions from './elements';
 import bookForm from './bookForm';
 
 const bookTable = (e) => {
   e.preventDefault();
-  const { content } = elements.elements();
-  content.removeChild(content.children[1]);
+  const { test } = actions.elements();
+  test.removeChild(test.lastChild);
 
   const main = document.createElement('div');
   main.innerHTML = bookForm.form;
-  content.appendChild(main);
+  test.appendChild(main);
 };
 
 export default { bookTable };

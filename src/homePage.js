@@ -11,21 +11,25 @@ const homePage = () => {
   const content = document.getElementById('content');
   const container = document.createElement('div');
   const navbar = document.createElement('nav');
+  const wrapper = document.createElement('div');
   const main = document.createElement('div');
   const info = document.createElement('div');
 
-  mainContainer.innerHTML = mainContainer.container;
+  wrapper.id = 'wrapperId';
+
+  main.innerHTML = mainContainer.container;
   navbar.innerHTML = navbarSection.navbar;
   main.innerHTML = mainSection.specialDishes;
   info.innerHTML = infoStore.storeDetails;
 
-  content.appendChild(navbar);
+  container.classList.add('test');
   content.appendChild(container);
-  container.appendChild(main);
-  container.appendChild(info);
+  container.appendChild(navbar);
+  container.appendChild(wrapper);
+  wrapper.appendChild(main);
+  wrapper.appendChild(info);
 
   eListeners.listeners(elements.elements());
-  // }
 };
 
 export default { homePage };
