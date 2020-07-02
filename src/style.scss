@@ -22,3 +22,12 @@ img {
   box-shadow: 0 0 48px 35px rgba(0, 0, 0, 0.21);
   border-radius: 10px;
 }
+
+ul {
+  li {
+    img {
+      width: 20rem;
+      height: 22rem;
+    }
+  }
+}

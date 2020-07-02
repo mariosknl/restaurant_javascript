@@ -20,7 +20,7 @@ const specialDishes = `<div id="carouselExampleCaptions" class="carousel slide c
       <a href="https://ny.eater.com/"></a>
       <img src="https://cdn.vox-cdn.com/thumbor/-EubIrcUNjyzTJY957hw3UA7_wQ=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/10407317/vt07.jpg" class="w-50 m-5" alt="greek salad">
       <div class="d-none d-md-block text-dark font-weight-bold h2 media-body m-5">
-        <h5 class="mt-0">Traditional Greek Salad</h5>
+        <h5 class="mt-0">Choriatiki - Traditional Greek Salad</h5>
         <p>Fresh Tomatoes, cucumber, feta, green pepper and olive oil!</p>
       </div>
     </div>
