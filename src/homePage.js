@@ -1,22 +1,18 @@
-// import elements from './elements';
+import mainContainer from './container';
 import navbarSection from './navbar';
+import mainSection from './mainSection';
 
 const homePage = () => {
   const content = document.getElementById('content');
   const container = document.createElement('div');
-  container.innerHTML = `<div class="container-fluid h-100 pt-5 w-100 bg-light">
-  <div class="container mt-3 shadow-lg content">
-  </div>
-  </div>`;
+  mainContainer.innerHTML = mainContainer.container;
   content.appendChild(container);
   const navbar = document.createElement('nav');
   navbar.innerHTML = navbarSection.navbar;
   container.appendChild(navbar);
-  // content.innerHTML = `<div class="container-fluid h-100 pt-5 w-100 bg-light">
-  // <div class="container mt-3 shadow-lg content">
-  // </div>
-  // </div>`;
-  // content.appendChild(navbarSection);
+  const main = document.createElement('div');
+  main.innerHTML = mainSection.specialDishes;
+  content.appendChild(main);
 };
 
 export default { homePage };

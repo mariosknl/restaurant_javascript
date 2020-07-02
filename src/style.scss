@@ -9,3 +9,16 @@
 .check {
   background-color: red;
 }
+
+.carousel-item {
+  border-radius: 30px;
+}
+
+img {
+  width: 10rem;
+  height: 25rem;
+  -webkit-box-shadow: 0 0 48px 35px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0 0 48px 35px rgba(0, 0, 0, 0.21);
+  box-shadow: 0 0 48px 35px rgba(0, 0, 0, 0.21);
+  border-radius: 10px;
+}
