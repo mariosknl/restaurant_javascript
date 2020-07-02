@@ -1,9 +1,9 @@
 function elements() {
   return {
-    navbar: document.querySelector('.navbar'),
-    homeButton: document.getElementById('homeButton'),
-    bookButton: document.getElementById('bookButton'),
-    menuButton: document.getElementById('menuButton'),
+    content: document.getElementById('content'),
+    homeBtn: document.getElementById('homeBtn'),
+    tableBtn: document.getElementById('bookTable'),
+    menuBtn: document.getElementById('menuPage'),
   };
 }
 
