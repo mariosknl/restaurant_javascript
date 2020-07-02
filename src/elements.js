@@ -7,6 +7,9 @@ function elements() {
     wrapper: document.getElementById('wrapperId'),
     container: document.querySelector('.container'),
     test: document.querySelector('.test'),
+    triggers: document.querySelectorAll('.nav-item'),
+    background: document.querySelector('.dropdownBackground'),
+    nav: document.querySelector('.navbar'),
   };
 }
 

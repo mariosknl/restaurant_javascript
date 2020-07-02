@@ -5,7 +5,7 @@ const showMenu = `
       <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/10/food-of-greece-cover.jpg.jpg" class="m-5" alt="gyros">
           <div class="d-md-block text-dark media-body m-5 pt-5">
             <h2 class="mt-0 font-weight-bold">Gyros - Souvlaki</h2>
-            <p>Chopped Pork inside homemade bread with tzatziki, onions, fried potatoes</p>
+            <p>Chopped Pork inside pita wraps with tzatziki, onions, fried potatoes</p>
           </div>
   </li>
 
