@@ -1,9 +1,8 @@
 /* eslint-disable import/no-cycle */
-import actions from './elements';
 import page from './bookTable';
 import Site from './homePage';
 
-const listeners = () => {
+const listeners = (actions) => {
   const {
     homeBtn, tableBtn,
   } = actions;
