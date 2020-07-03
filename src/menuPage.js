@@ -2,12 +2,12 @@ import actions from './elements';
 import menu from './menuLayout';
 
 const menuPage = () => {
-  const { test } = actions.elements();
-  test.removeChild(test.lastChild);
+  const { wrapper } = actions.elements();
+  wrapper.removeChild(wrapper.lastChild);
 
   const main = document.createElement('div');
   main.innerHTML = menu.showMenu;
-  test.appendChild(main);
+  wrapper.appendChild(main);
 };
 
 export default { menuPage };

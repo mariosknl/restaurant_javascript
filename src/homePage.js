@@ -6,6 +6,7 @@ import mainSection from './mainSection';
 import infoStore from './info';
 import elements from './elements';
 import eListeners from './eventListeners';
+import book from './bookTable';
 
 const homePage = () => {
   const content = document.getElementById('content');
@@ -16,10 +17,6 @@ const homePage = () => {
   const info = document.createElement('div');
 
   wrapper.id = 'wrapperId';
-
-  if (wrapper.childElementCount !== 0) {
-    wrapper.innerHTML = '';
-  }
   main.innerHTML = mainContainer.container;
   navbar.innerHTML = navbarSection.navbar;
   main.innerHTML = mainSection.specialDishes;
@@ -29,8 +26,16 @@ const homePage = () => {
   content.appendChild(container);
   container.appendChild(navbar);
   container.appendChild(wrapper);
-  wrapper.appendChild(main);
-  wrapper.appendChild(info);
+
+  if (wrapper.childElementCount === 0) {
+    wrapper.appendChild(main);
+    wrapper.appendChild(info);
+  } else {
+    wrapper.innerHTML = '';
+    wrapper.appendChild(main);
+    wrapper.appendChild(info);
+  }
+
 
   eListeners.listeners(elements.elements());
 };
