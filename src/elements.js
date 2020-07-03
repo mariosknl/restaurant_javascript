@@ -4,6 +4,7 @@ function elements() {
     homeBtn: document.getElementById('homeBtn'),
     tableBtn: document.getElementById('bookTable'),
     menuBtn: document.getElementById('menuPage'),
+    bookBtn: document.getElementById('bookBtn'),
     wrapper: document.getElementById('wrapperId'),
     container: document.querySelector('.container'),
     test: document.querySelector('.test'),

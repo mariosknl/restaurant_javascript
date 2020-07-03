@@ -7,12 +7,13 @@ import functions from './functions';
 
 const listeners = (actions) => {
   const {
-    homeBtn, tableBtn, menuBtn,
+    homeBtn, tableBtn, menuBtn, bookBtn,
   } = actions;
 
   homeBtn.addEventListener('click', Site.homePage);
   tableBtn.addEventListener('click', page.bookTable);
   menuBtn.addEventListener('click', mPage.menuPage);
+  bookBtn.addEventListener('click', page.bookTable);
 
   const { triggers } = el.elements();
 
