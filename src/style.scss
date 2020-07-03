@@ -16,19 +16,22 @@ img {
   border-radius: 10px;
 }
 
-ul {
+.navbar-nav {
   z-index: 999999;
+
   li {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     z-index: 999999;
+  }
+}
 
-    img {
-      width: 20rem;
-      height: 22rem;
-    }
+ul {
+  img {
+    width: 20rem;
+    height: 22rem;
   }
 }
 

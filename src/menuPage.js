@@ -1,8 +1,7 @@
 import actions from './elements';
 import menu from './menuLayout';
 
-const menuPage = (e) => {
-  e.preventDefault();
+const menuPage = () => {
   const { test } = actions.elements();
   test.removeChild(test.lastChild);
 
