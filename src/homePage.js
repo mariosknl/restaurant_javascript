@@ -17,6 +17,9 @@ const homePage = () => {
 
   wrapper.id = 'wrapperId';
 
+  if (wrapper.childElementCount !== 0) {
+    wrapper.innerHTML = '';
+  }
   main.innerHTML = mainContainer.container;
   navbar.innerHTML = navbarSection.navbar;
   main.innerHTML = mainSection.specialDishes;

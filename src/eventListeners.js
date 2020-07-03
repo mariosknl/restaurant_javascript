@@ -1,6 +1,6 @@
 /* eslint-disable import/no-cycle */
-import page from './bookTable';
 import Site from './homePage';
+import page from './bookTable';
 import mPage from './menuPage';
 import el from './elements';
 import functions from './functions';
