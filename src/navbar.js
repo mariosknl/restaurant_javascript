@@ -19,16 +19,16 @@ const navbar = `
         </li>
 
         <li class="nav-item" id="bookTable">
-          <a href="#" class="nav-link text-black font-weight-bold" id="bookButton">BOOK A TABLE</a>
+          <a href="#" class="nav-link text-dark font-weight-bold" id="bookButton">BOOK TABLE</a>
             <ul class="dropdown table">
-              <li>Let's organize your event</li>
-              <li>Here for your special occasion</li>
-              <li>Birthday events</li>
+              <li>Let us organize your event</li>
+              <li>Special Occasions</li>
+              <li>Birthday Events</li>
             </ul>
         </li>
 
         <li class="nav-item" id="menuPage">
-          <a href="#" class="nav-link text-black font-weight-bold" id="menuButton">MENU</a>
+          <a href="#" class="nav-link text-dark font-weight-bold" id="menuButton">MENU</a>
             <ul class="dropdown menu">
               <li>Starters</li>
               <li>Dips</li>

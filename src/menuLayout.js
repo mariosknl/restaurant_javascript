@@ -21,7 +21,6 @@ const showMenu = `
   <li class="media">
     <a href="https://honestcooking.com/moussaka-recipe/"></a>
       <img src="https://daringgourmet.com/wp-content/uploads/2013/01/Moussaka-3-sm.jpg" class="m-5" alt="mousaka">
-      <div class="d-none d-md-block text-dark font-weight-bold h2 media-body m-5">
         <div class="d-md-block text-dark media-body m-5 pt-5">
           <h2 class="mt-0 font-weight-bold">Mousaka</h2>
           <p>Famous Mousaka. Beefy Bolognese with Fried Eggpplants and cream on top!</p>
