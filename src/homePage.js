@@ -1,14 +1,12 @@
 /* eslint-disable import/no-cycle */
 
-import mainContainer from './container';
 import navbarSection from './navbar';
-import mainSection from './mainSection';
-import infoStore from './info';
 import elements from './elements';
 import eListeners from './eventListeners';
-import book from './bookTable';
+import home from './homeLayout';
 
-const homePage = () => {
+
+const structure = () => {
   const content = document.getElementById('content');
   const container = document.createElement('div');
   const navbar = document.createElement('nav');
@@ -16,28 +14,35 @@ const homePage = () => {
   const main = document.createElement('div');
   const info = document.createElement('div');
 
-  wrapper.id = 'wrapperId';
-  main.innerHTML = mainContainer.container;
   navbar.innerHTML = navbarSection.navbar;
-  main.innerHTML = mainSection.specialDishes;
-  info.innerHTML = infoStore.storeDetails;
 
-  container.classList.add('test');
+  wrapper.id = 'wrapperId';
+
+
   content.appendChild(container);
   container.appendChild(navbar);
   container.appendChild(wrapper);
 
-  if (wrapper.childElementCount === 0) {
-    wrapper.appendChild(main);
-    wrapper.appendChild(info);
+  home.home(main, info);
+  wrapper.appendChild(main);
+  wrapper.appendChild(info);
+};
+
+
+const homePage = () => {
+  if (!document.getElementById('wrapperId')) {
+    structure();
   } else {
+    const wrapper = document.getElementById('wrapperId');
+    const main = document.createElement('div');
+    const info = document.createElement('div');
     wrapper.innerHTML = '';
+    home.home(main, info);
     wrapper.appendChild(main);
     wrapper.appendChild(info);
   }
 
-
   eListeners.listeners(elements.elements());
 };
 
-export default { homePage };
+export default { homePage, structure };
