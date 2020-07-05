@@ -6,7 +6,7 @@ const common = require('./webpack.common');
 module.exports = merge(common, {
   mode: 'development',
   output: {
-    filename: 'main.js',
+    filename: '[name].bunlde.js',
     path: path.join(__dirname, 'dist'),
   },
 });
