@@ -1,5 +1,8 @@
 const path = require('path');
+// eslint-disable-next-line import/no-extraneous-dependencies
 const merge = require('webpack-merge');
+// eslint-disable-next-line import/no-extraneous-dependencies
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const common = require('./webpack.common');
 
 module.exports = merge(common, {
@@ -8,6 +11,11 @@ module.exports = merge(common, {
     filename: 'main.js',
     path: path.join(__dirname, 'dist'),
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/template.html',
+    }),
+  ],
   module: {
     rules: [
       {
