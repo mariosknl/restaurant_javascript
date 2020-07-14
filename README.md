@@ -54,9 +54,6 @@ In this project I am using webpack to create everything. This was a good practic
 - Linkedln: [marios-kanellopoulos](https://www.linkedin.com/in/marios-kanellopoulos)
 - Portfolio: [marios-kanellopoulos](https://marioskanellopoulos.com/)
 
-### Show your support
-Give a star if you like this project!
-
 ### Acknowledgments
 - Microverse
 - The Odin Project
