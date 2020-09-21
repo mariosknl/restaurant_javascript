@@ -19,7 +19,7 @@
   "homepage": "https://github.com/mariosknl/restaurant_javascript#readme",
   "devDependencies": {
     "css-loader": "3.6.0",
-    "eslint": "6.8.0",
+    "eslint": "7.9.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-import": "2.20.2",
     "file-loader": "6.0.0",
