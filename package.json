@@ -20,7 +20,7 @@
   "devDependencies": {
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-import": "2.22.1",
-    "file-loader": "6.1.1",
+    "file-loader": "6.2.0",
     "html-webpack-plugin": "4.5.0",
     "mini-css-extract-plugin": "1.2.1",
     "optimize-css-assets-webpack-plugin": "5.0.4",
