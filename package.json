@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/mariosknl/restaurant_javascript#readme",
   "devDependencies": {
-    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-config-airbnb-base": "14.2.1",
     "eslint-plugin-import": "2.22.1",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "4.5.0",
